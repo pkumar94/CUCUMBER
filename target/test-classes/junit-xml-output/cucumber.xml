@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.004612">
+<testcase classname="My account login feature" name="log-in wtih valid username and Password" time="26.004612">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at Reporting.Extent_Reporting.Log_Pass_with_Screenshot(Extent_Reporting.java:43)&#13;&#10;&#9;at stepDefination.MyAccountloginStepDefinitions.registered_username_and_password(MyAccountloginStepDefinitions.java:85)&#13;&#10;&#9;at ✽.And Registered username and password(MyaccountLogin.feature:10)&#13;&#10;"><![CDATA[Given open browser..........................................................passed
+When Enter url "http://practice.automationtesting.in/"......................passed
+And click on My Account menu................................................passed
+And Registered username and password........................................failed
+And Click on login button...................................................skipped
+Then user must sucessfully login to application.............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Reporting.Extent_Reporting.Log_Pass_with_Screenshot(Extent_Reporting.java:43)
+	at stepDefination.MyAccountloginStepDefinitions.registered_username_and_password(MyAccountloginStepDefinitions.java:85)
+	at ✽.And Registered username and password(MyaccountLogin.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,111 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#Simple login Without parameters"
+          }
+        ],
+        "line": 6,
+        "name": "log-in wtih valid username and Password",
+        "description": "",
+        "id": "my-account-login-feature;log-in-wtih-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5199024300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "open browser",
+            "match": {
+              "location": "MyAccountloginStepDefinitions.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15708182900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter url \"http://practice.automationtesting.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://practice.automationtesting.in/",
+                  "offset": 11
+                }
+              ],
+              "location": "MyAccountloginStepDefinitions.enter_url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4549725800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on My Account menu",
+            "match": {
+              "location": "MyAccountloginStepDefinitions.click_on_My_Account_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 547678900,
+              "error_message": "java.lang.NullPointerException\r\n\tat Reporting.Extent_Reporting.Log_Pass_with_Screenshot(Extent_Reporting.java:43)\r\n\tat stepDefination.MyAccountloginStepDefinitions.registered_username_and_password(MyAccountloginStepDefinitions.java:85)\r\n\tat ✽.And Registered username and password(MyaccountLogin.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "Registered username and password",
+            "match": {
+              "location": "MyAccountloginStepDefinitions.registered_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Click on login button",
+            "match": {
+              "location": "MyAccountloginStepDefinitions.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user must sucessfully login to application",
+            "match": {
+              "location": "MyAccountloginStepDefinitions.user_must_sucessfully_login_to_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "My account login feature",
+    "description": "Description:  log-in to application",
+    "id": "my-account-login-feature",
+    "keyword": "Feature",
+    "uri": "MyaccountLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@First"
+      }
+    ]
+  }
+]
